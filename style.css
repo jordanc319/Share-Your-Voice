@@ -1,16 +1,22 @@
 .buttonone {
  background-color: blue;
- width: 100px;
- height: 40px;
+ width: 500px;
+ height: 200px;
 }
 .buttontwo {
  background-color: green; 
+ width: 500px;
+ height: 200px;
 }
 .buttonthree {
  background-color: red;
+ width: 500px;
+ height: 200px;
 }
 .buttonfour {
  background-color: yellow; 
+ width: 500px;
+ height: 200px;
 }
 .heading {
  font-family: roboto;
