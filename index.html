@@ -2,18 +2,18 @@
 <html>
 <head>
   <title>Share Your Voice</title>
-</head> 
+</head>
 <body>
  <h1 class="heading">Share Your Voice</h1>
- <h3 class="question">Do you think that homework should be given to students?</h3>
+ <h3 class="question" id="question"></h3>
  <table align="center">
    <tr>
-    <td><span><button id="buttonone" class="buttonone">Yes, it is very necesary</button></span></td>
-    <td><span><button id="buttontwo" class="buttontwo">Yes, but less</button></span></td>
+    <td><span><button id="buttonOne" class="buttonone" onclick="voteSubmitted('buttonOne')"></button></span></td>
+    <td><span><button id="buttonTwo" class="buttontwo" onclick="voteSubmitted('buttonTwo')"></button></span></td>
    </tr>
    <tr>
-    <td><span><button id="buttonthree" class="buttonthree">Yes but very little</button></span></td>
-    <td><span><button id="buttonthree" class="buttonfour">No, homework is stupid</button></span></td>
+    <td><span><button id="buttonThree" class="buttonthree" onclick="voteSubmitted('buttonThree')"></button></span></td>
+    <td><span><button id="buttonFour" class="buttonfour" onclick="voteSubmitted('buttonFour')"></button></span></td>
    </tr>
  </table>
  <br>
@@ -23,4 +23,19 @@
 </body>
 </html>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="/Users/johnnyramirez/Documents/Web Project Folder/Share Your Voice/style.css">
 <script src="script.js"></script>
+<scrpit src="/Users/johnnyramirez/Documents/Web Project Folder/Share Your Voice/style.css"></script>
+<script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyA3-Fl5bTn9NGzFnuLmKYZ_uLN0KhZjS4M",
+    authDomain: "share-your-voice-e07ff.firebaseapp.com",
+    databaseURL: "https://share-your-voice-e07ff.firebaseio.com",
+    projectId: "share-your-voice-e07ff",
+    storageBucket: "",
+    messagingSenderId: "75151109870"
+  };
+  firebase.initializeApp(config);
+</script>
