@@ -1,31 +1,28 @@
 .table {
- padding: ;
- height: 50vh;
- width: 100%;
 }
 
-.buttonone {
+#buttonone {
  background-color: #1E90FF;
  color: black;
  width: 500px;
  height: 200px;
  font-size: 30px;
 }
-.buttontwo {
+#buttontwo {
  background-color: green;
  color: black;
  width: 500px;
  height: 200px;
  font-size: 30px;
 }
-.buttonthree {
+#buttonthree {
  background-color: red;
  color: black;
  width: 500px;
  height: 200px;
  font-size: 30px;
 }
-.buttonfour {
+#buttonfour {
  background-color: yellow;
  color: black;
  width: 500px;
