@@ -5,10 +5,8 @@
 .button {
  height: 100%;
  width: 100%;
- border: none;
- text-size: 20px;
 }
-td {
+.td {
  height: 50%;
  width: 50%;
 
