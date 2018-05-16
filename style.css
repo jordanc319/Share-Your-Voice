@@ -8,6 +8,7 @@ body {
 .button {
  height: 100%;
  width: 100%;
+ border: none;
 }
 .td {
  height: 50%;
