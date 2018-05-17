@@ -4,13 +4,12 @@ body {
 .table {
  width: 100%;
  height: 70vh;
- text-font: verdana;
 }
 .button {
  height: 100%;
  width: 100%;
  border: none;
- text-family: roboto;
+ font-family: roboto;
 }
 .td {
  height: 50%;
