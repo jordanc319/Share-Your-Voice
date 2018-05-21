@@ -10,7 +10,7 @@ body {
  width: 100%;
  font-size: 30px;
  border: none;
- font-family: tajawal;
+ font-family: raleway;
 }
 .td {
  height: 50%;
@@ -33,10 +33,10 @@ body {
  color: black;
 }
 .heading {
- font-family: tajawal;
+ font-family: raleway;
  text-align: center;
 }
 .question {
  text-align: center;
- font-family: tajawal;
+ font-family: raleway;
 }
