@@ -9,7 +9,7 @@ body {
  height: 100%;
  width: 100%;
  border: none;
- font-family: roboto;
+ font-family: tajawal;
 }
 .td {
  height: 50%;
@@ -52,10 +52,10 @@ body {
  width: 100%;
 }
 .heading {
- font-family: roboto;
+ font-family: tajawal;
  text-align: center;
 }
 .question {
  text-align: center;
- font-family: roboto;
+ font-family: tajawal;
 }
